@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(15, 45, 76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 210.4px;
+}
+.heading1{
+    margin-top: 40px;
+    font-size: 3rem;
+    color: #fff;
+}
+.heading2{
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.unorder_list{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    list-style: none;
+    /* margin-inline: 2rem; */
+}
+.nav_list{
+    background-color: rgb(14, 5, 82);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 6px;  
+}
+.nav_list_color{
+    background-color: rgb(11, 93, 225);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 6px; 
+}
+.nav_list_color a{
+    text-decoration-line: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+:hover.nav_list{
+    width: 20%;
+    background-color: rgb(11, 93, 225);
+}
+.nav_list a{
+    text-decoration-line: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.food_menu{
+    margin-top: 2rem;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    background-color: rgb(226, 211, 247);
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .header{
+        max-height: 210.4px;
+    }
+    .heading1 {
+        font-size: 2.5rem;
+    }
+    .heading2{
+        font-size: 2.5rem;
+    }
+    .unorder_list{
+        margin-inline: 0px;
+    }
+    .nav_list a{
+        font-size: 1rem;
+    }
+    .nav_list_color a{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 730px) {
+    .heading1 {
+        font-size: 1.5rem;
+    }
+    .heading2{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        background-color: aqua;
+    }
+    
+    .nav_list a{
+        font-size: .8rem;
+    }
+    .nav_list_color a{
+        font-size: .8rem;
+    }
+    
+}
+@media (max-width: 500px) {
+    .heading1 {
+        font-size: 1.5rem;
+    }
+    .heading2{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        background-color: aqua;
+    }
+   
+    .nav_list a{
+        font-size: .6rem;
+    }
+    .nav_list_color a{
+        font-size: .6rem;
+    }
+    .food_menu{
+        font-size: 2rem;
+    }
+}
